@@ -1,0 +1,4 @@
+venv
+dist
+web3tooldex/__pycache__
+tests/__pycache__
