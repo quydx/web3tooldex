@@ -102,7 +102,7 @@ print(tx_hash)
     "BASE_CONTRACT": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
 }
 ```
-2. Add new Dex object in the chain script (ex: `web3dex/configs/ethereum.py`):
+2. Add a new Dex object in the chain script (ex: `web3dex/configs/ethereum.py`):
 ```python
 class Uniswap(Dex):
     def __init__(self):
